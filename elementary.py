@@ -17,7 +17,7 @@
 Contains a class for an elementarty particle.  Defines the particle's properties as mass, position, and momentum in tuples, as well as posessing seeral methods to change these properties.
 """
 
-import scipy as sc
+from scipy import constants as cs
 
 class Particle(object):
     """
@@ -83,13 +83,13 @@ class Electron(ChargedParticle):
     A class which extends the charged particle to specifically an electron.  The scipy constants are employed to attain exact values for the particle.
     """
     def __init__(self, x=0, y=0, z=0):
-        ChargedParticle.__init__(self, x, y, z, -sc.constants.e)
-        self.mass = sc.constants.m_e
+        ChargedParticle.__init__(self, x, y, z, -cs.e)
+        self.mass = cs.m_e
 
 class Proton(ChargedParticle):
     """
     A class which extends the charged particle to specifically a proton.  The scipy constants are used again to attain exact values.
     """
     def __init__(self, x=0, y=0, z=0):
-        ChargedParticle.__init__(self, x, y, z, sc.constants.e)
-        self.mass = sc.constants.m_p
+        ChargedParticle.__init__(self, x, y, z, cs.e)
+        self.mass = cs.m_p
