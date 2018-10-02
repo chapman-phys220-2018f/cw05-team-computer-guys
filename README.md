@@ -1,8 +1,8 @@
-[![Build Status](https://travis-ci.com/chapman-phys220-2018f/CHANGEME.svg?branch=master)](https://travis-ci.com/chapman-phys220-2018f/CHANGEME)
+[![Build Status](https://travis-ci.com/chapman-phys220-2018f/cw05-team-computer-guys.svg?branch=master)](https://travis-ci.com/chapman-phys220-2018f/cw05-team-computer-guys.svg?branch=master)
 
 # PHYS220/MATH220/CPSC220 CW 5
 
-**Author(s):** **CHANGEME**
+**Author(s):** **Trevor Kling, Paul Hatem**
 
 ## Specification
 
