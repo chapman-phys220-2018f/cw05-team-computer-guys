@@ -2,7 +2,7 @@
 
 # PHYS220/MATH220/CPSC220 CW 5
 
-**Author(s):** **Trevor Kling,**
+**Author(s):** **Trevor Kling, Paul Hatem**
 
 ## Specification
 
